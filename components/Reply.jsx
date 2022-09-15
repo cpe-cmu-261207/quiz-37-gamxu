@@ -3,7 +3,7 @@ import React from "react";
 export default function Reply(props) {
   return (
     <div className="d-flex gap-2 my-2 ps-5">
-    <Img
+    <img
       src={`${props.userImagePath}`}
       width="48"
       height="48"
@@ -18,7 +18,7 @@ export default function Reply(props) {
       <br />
       <span>{props.replyText}</span>
       <div className="d-flex align-items-center gap-1">
-         <Img src="/like.svg" width={20}/>
+         <img src="/like.svg" width={20}/>
          <span className="text-muted">{`${props.likeNum} คน`}</span>
       </div>      
     </div>
