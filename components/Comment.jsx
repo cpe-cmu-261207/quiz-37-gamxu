@@ -6,7 +6,7 @@ export default function Comment(props) {
   return (
     <div>
         <div className="d-flex gap-2 my-2">
-          <Img
+          <img
             src={`${props.userImagePath}`}
             width="48"
             height="48"
@@ -21,7 +21,7 @@ export default function Comment(props) {
             <br />
             <span>{props.commentText}</span>
             <div className="d-flex align-items-center gap-1">
-              <Img src="/like.svg" width={20}/>
+              <img src="/like.svg" width={20}/>
               <span className="text-muted">{`${props.likeNum} คน`}</span>
             </div>
           </div>
