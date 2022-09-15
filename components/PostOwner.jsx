@@ -15,7 +15,7 @@ export default function PostOwner(props) {
     </div>
     <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
     <div className="d-flex align-items-center gap-1">
-      <img src="/like.svg" width={20}></img>
+      <img src="/like.svg" width={20}/>
       <span className="text-muted">10K คน</span>
     </div>
     <hr className="m-0" />

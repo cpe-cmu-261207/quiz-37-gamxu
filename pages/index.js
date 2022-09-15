@@ -20,7 +20,7 @@ export default function Home() {
 
         {/* Comment*/}
         {
-          filtered.map((x) => 
+          filtered.map((x,i) => 
             <Comment 
             username={x.username} 
             userImagePath={x.userImagePath}
