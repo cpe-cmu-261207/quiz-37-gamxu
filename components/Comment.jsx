@@ -28,12 +28,13 @@ export default function Comment(props) {
         </div>
 
     {
-      filtered.map((x) =>
+      filtered.map((x,i) =>
         <Reply 
         username={x.username}
         userImagePath={x.userImagePath}
         replyText={x.replyText}
         likeNum={x.likeNum}
+        key={i}
         />
       )
 

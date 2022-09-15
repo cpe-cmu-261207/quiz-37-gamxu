@@ -27,6 +27,7 @@ export default function Home() {
             commentText={x.commentText}
             likeNum={x.likeNum}
             replies={x.replies}
+            key={i}
             />
             
           )
